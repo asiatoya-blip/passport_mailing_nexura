@@ -1,0 +1,92 @@
+name: Validate MJML Templates
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+    paths:
+      - 'src/**/*.mjml'
+      - 'src/**/*.json'
+      - 'package.json'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'src/**/*.mjml'
+      - 'src/**/*.json'
+      - 'package.json'
+
+jobs:
+  validate:
+    name: Validate MJML Syntax & Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate MJML files
+        run: |
+          echo "🔍 Validating MJML templates..."
+          npm run build
+          BUILD_STATUS=$?
+
+          if [ $BUILD_STATUS -eq 0 ]; then
+            echo "✅ All MJML templates are valid"
+          else
+            echo "❌ MJML validation failed"
+            exit 1
+          fi
+
+      - name: Count templates
+        run: |
+          TEMPLATE_COUNT=$(find src/templates -name "*.mjml" | wc -l)
+          COMPONENT_COUNT=$(find src/components -name "*.mjml" | wc -l)
+          echo "📊 Template Summary:"
+          echo "  • Templates: $TEMPLATE_COUNT"
+          echo "  • Components: $COMPONENT_COUNT"
+          echo "  • Total MJML files: $((TEMPLATE_COUNT + COMPONENT_COUNT))"
+
+      - name: Verify dist output
+        run: |
+          if [ -d "dist" ]; then
+            HTML_COUNT=$(find dist -name "*.html" | wc -l)
+            echo "✓ Generated $HTML_COUNT HTML files"
+          else
+            echo "✗ dist/ directory not created"
+            exit 1
+          fi
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ **MJML Validation Passed**\n\n- All templates compiled successfully\n- No syntax errors detected\n- Ready to merge'
+            })
+
+      - name: Report failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ **MJML Validation Failed**\n\nPlease check the build logs for errors.'
+            })
