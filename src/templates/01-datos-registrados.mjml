@@ -1,0 +1,225 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Plus Jakarta Sans" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="'Plus Jakarta Sans', Arial, Helvetica, sans-serif" color="#1F2937" />
+      <mj-text font-size="14px" line-height="20px" padding="0" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+    </mj-attributes>
+    <mj-raw>
+      <!--[if mso]>
+        <style type="text/css">
+          body, table, td, p, a, span { font-family: Arial, Helvetica, sans-serif !important; }
+        </style>
+      <![endif]-->
+    </mj-raw>
+    <mj-style>
+      body { background-color: #F5F6FA; }
+      .card-border { border: 1px solid #E5E7EB; border-radius: 16px; }
+      .card-bg { background-color: #F8F9FC; border-radius: 16px; }
+      .btn-primary { background-color: #1A6FE8; color: #FFFFFF; border-radius: 8px; }
+      .btn-primary:hover { background-color: #1557B0; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F5F6FA" width="640px">
+    <!-- Header: Logo + Secretaría -->
+    <mj-section background-color="#FFFFFF" padding="28px 32px 20px 32px">
+      <mj-group>
+        <mj-column width="45%" vertical-align="middle">
+          <mj-image src="{{ENTITY_LOGO_URL}}" alt="{{ENTITY_NAME}}" width="170px" align="left" padding="0" />
+        </mj-column>
+        <mj-column width="55%" vertical-align="middle">
+          <mj-table padding="0 0 0 16px">
+            <tr>
+              <td style="border-left: 1px solid #E2E8F0; padding-left: 16px;">
+                <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; line-height: 17px; font-weight: 600; color: #475569;">
+                  {{ENTITY_SECRETARIAT_TITLE}}
+                </p>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Title Hero -->
+    <mj-section background-color="#FFFFFF" padding="12px 32px 24px 32px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="20px" line-height="28px" font-weight="700" color="#0F172A">
+          ¡Datos registrados exitosamente!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Stepper: Paso 1 completado (verde), resto pendiente -->
+    <mj-section background-color="#FFFFFF" padding="24px 32px">
+      <mj-column width="100%">
+        <mj-table width="100%" cellpadding="0" cellspacing="0">
+          <tr align="center">
+            <td width="25%">
+              <div style="width: 40px; height: 40px; background-color: #DCFCE7; border-radius: 50%; margin: 0 auto 8px; line-height: 40px; color: #15803D; font-weight: 700; font-size: 18px;">✓</div>
+              <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Registro</p>
+            </td>
+            <td width="25%">
+              <div style="width: 40px; height: 40px; background-color: #E5E7EB; border-radius: 50%; margin: 0 auto 8px; line-height: 40px; color: #9CA3AF; font-weight: 700; font-size: 18px;">2</div>
+              <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Primer pago</p>
+            </td>
+            <td width="25%">
+              <div style="width: 40px; height: 40px; background-color: #E5E7EB; border-radius: 50%; margin: 0 auto 8px; line-height: 40px; color: #9CA3AF; font-weight: 700; font-size: 18px;">3</div>
+              <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Agendamiento</p>
+            </td>
+            <td width="25%">
+              <div style="width: 40px; height: 40px; background-color: #E5E7EB; border-radius: 50%; margin: 0 auto 8px; line-height: 40px; color: #9CA3AF; font-weight: 700; font-size: 18px;">4</div>
+              <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Segundo pago</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Alert: Verde -->
+    <mj-section background-color="#FFFFFF" padding="0 32px 24px 32px">
+      <mj-column width="100%">
+        <mj-table padding="16px" container-background-color="#DCFCE7" style="border-radius: 12px; width: 100%;">
+          <tr>
+            <td width="36" style="vertical-align: middle; padding-right: 12px;">
+              <img src="https://assets.nexura.com/icons/check-badge-green.png" width="28" height="28" style="display: block;" alt="" />
+            </td>
+            <td style="vertical-align: middle;">
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; line-height: 18px; color: #15803D;">
+                <strong>Registro exitoso</strong><br />
+                Tus datos han sido registrados correctamente. Ahora procede al pago del primer derecho.
+              </p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Data List Card -->
+    <mj-section background-color="#FFFFFF" padding="0 32px 24px 32px">
+      <mj-column width="100%">
+        <mj-table container-background-color="#F8F9FC" padding="20px 24px" style="border-radius: 16px; width: 100%;">
+          <tr>
+            <td colspan="2" style="padding-bottom: 16px;">
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #334155;">
+                Datos registrados
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="28" style="vertical-align: middle; padding: 8px 0;">
+              <img src="https://assets.nexura.com/icons/user.png" width="20" height="20" style="display: block;" alt="" />
+            </td>
+            <td style="vertical-align: middle; padding: 8px 12px 8px 4px;">
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; color: #64748B;">Nombre completo</p>
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #0F172A;">{{CITIZEN_FULLNAME}}</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="height: 1px; background-color: #E5E7EB; padding: 0; margin: 8px 0;"></td>
+          </tr>
+          <tr>
+            <td width="28" style="vertical-align: middle; padding: 8px 0;">
+              <img src="https://assets.nexura.com/icons/id-card.png" width="20" height="20" style="display: block;" alt="" />
+            </td>
+            <td style="vertical-align: middle; padding: 8px 12px 8px 4px;">
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; color: #64748B;">Número de cédula</p>
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #0F172A;">{{CITIZEN_ID}}</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="height: 1px; background-color: #E5E7EB; padding: 0; margin: 8px 0;"></td>
+          </tr>
+          <tr>
+            <td width="28" style="vertical-align: middle; padding: 8px 0;">
+              <img src="https://assets.nexura.com/icons/calendar.png" width="20" height="20" style="display: block;" alt="" />
+            </td>
+            <td style="vertical-align: middle; padding: 8px 12px 8px 4px;">
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; color: #64748B;">Fecha de nacimiento</p>
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #0F172A;">{{CITIZEN_DOB}}</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Pricing Selector -->
+    <mj-section background-color="#FFFFFF" padding="0 32px 24px 32px">
+      <mj-column width="100%">
+        <mj-table padding="16px" container-background-color="#FFFFFF" style="border: 1px solid #E2E8F0; border-radius: 16px; width: 100%;">
+          <tr>
+            <td align="center" width="33%" style="padding: 12px 6px; border-right: 1px solid #F1F5F9;">
+              <p style="margin: 0 0 4px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #0F172A;">$121.000</p>
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 11px; color: #64748B;">Pasaporte Ordinario<br/>(30-45 días)</p>
+            </td>
+            <td align="center" width="33%" style="padding: 12px 6px; border-right: 1px solid #F1F5F9;">
+              <span style="background-color: #1A6FE8; color: white; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 10px; font-weight: 700; padding: 4px 8px; border-radius: 4px; display: inline-block; margin-bottom: 8px;">RECOMENDADO</span>
+              <p style="margin: 8px 0 0 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #0F172A;">$121.000</p>
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 11px; color: #64748B;">Pasaporte Ejecutivo<br/>(10-15 días)</p>
+            </td>
+            <td align="center" width="33%" style="padding: 12px 6px;">
+              <p style="margin: 0 0 4px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #0F172A;">$121.000</p>
+              <p style="margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 11px; color: #64748B;">Pasaporte Emergencia<br/>(2-3 días)</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Button: Continuar con pago -->
+    <mj-section background-color="#FFFFFF" padding="0 32px 24px 32px">
+      <mj-column width="100%">
+        <mj-button background-color="#1A6FE8" color="#FFFFFF" font-size="14px" font-weight="700" padding="14px 28px" border-radius="8px" href="{{PAYMENT_URL}}" align="center">
+          Continuar con el primer pago
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Notice Cancillería -->
+    <mj-section background-color="#FFFFFF" padding="0 32px 24px 32px">
+      <mj-column width="100%">
+        <mj-table padding="20px" container-background-color="#FEF9E7" style="border-radius: 16px; width: 100%;">
+          <tr>
+            <td width="36" style="vertical-align: top; padding-right: 12px;">
+              <img src="https://assets.nexura.com/icons/warning-amber.png" width="28" height="28" style="display: block;" alt="" />
+            </td>
+            <td style="vertical-align: top;">
+              <p style="margin: 0 0 8px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 15px; font-weight: 700; color: #1E293B;">Recuerde registrar sus datos en Cancillería</p>
+              <p style="margin: 0 0 12px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; line-height: 19px; color: #334155;">
+                {{CANCILLERIA_NOTICE_BODY}}
+              </p>
+              <a href="https://tramitesmre.cancilleria.gov.co/tramites/enlinea/registrarPersona.xhtml" style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #1A6FE8; text-decoration: underline;">
+                Realizar registro de Cancillería en el SITAC
+              </a>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#FFFFFF" padding="28px 32px 32px 32px" border-top="1px solid #F1F5F9">
+      <mj-column width="100%" padding-bottom="24px">
+        <mj-text align="center" font-size="14px" font-weight="600" color="#334155" padding-bottom="8px">
+          Gracias por utilizar nuestros servicios
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#64748B" padding-bottom="4px">
+          {{ENTITY_COPYRIGHT}}
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#64748B" padding-bottom="20px">
+          <a href="mailto:{{ENTITY_SUPPORT_EMAIL}}" style="color: #64748B; text-decoration: none;">{{ENTITY_SUPPORT_EMAIL}}</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" font-size="11px" color="#94A3B8">
+          ¿No visualizas bien este email?
+          <a href="{{VIEW_IN_BROWSER_URL}}" style="color: #1A6FE8; text-decoration: underline;">
+            Ver en tu navegador.
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

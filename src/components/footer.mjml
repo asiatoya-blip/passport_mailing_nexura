@@ -1,0 +1,48 @@
+<mj-section background-color="#1F2937" padding="40px 0">
+  <mj-column>
+    <mj-text align="center" font-size="14px" color="#FFFFFF" font-weight="600" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 16px 0">
+      Gracias por confiar en nosotros 🎉
+    </mj-text>
+
+    <mj-text align="center" font-size="12px" color="#D1D5DB" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 20px 0">
+      {{FOOTER_SUPPORT_MESSAGE}}
+      <br/>
+      <a href="mailto:{{ENTITY_SUPPORT_EMAIL}}" style="color: #60A5FA; text-decoration: none;">{{ENTITY_SUPPORT_EMAIL}}</a>
+    </mj-text>
+
+    <mj-divider border-color="#374151" border-width="1px" margin="20px 0" />
+
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr align="center">
+        <td style="padding: 0 8px;">
+          <a href="{{SOCIAL_FACEBOOK}}" style="text-decoration: none; display: inline-block;">
+            <img src="https://assets.nexura.com/icons/social-facebook.png" width="20" height="20" alt="Facebook" />
+          </a>
+        </td>
+        <td style="padding: 0 8px;">
+          <a href="{{SOCIAL_TWITTER}}" style="text-decoration: none; display: inline-block;">
+            <img src="https://assets.nexura.com/icons/social-twitter.png" width="20" height="20" alt="Twitter" />
+          </a>
+        </td>
+        <td style="padding: 0 8px;">
+          <a href="{{SOCIAL_INSTAGRAM}}" style="text-decoration: none; display: inline-block;">
+            <img src="https://assets.nexura.com/icons/social-instagram.png" width="20" height="20" alt="Instagram" />
+          </a>
+        </td>
+        <td style="padding: 0 8px;">
+          <a href="{{SOCIAL_YOUTUBE}}" style="text-decoration: none; display: inline-block;">
+            <img src="https://assets.nexura.com/icons/social-youtube.png" width="20" height="20" alt="YouTube" />
+          </a>
+        </td>
+      </tr>
+    </mj-table>
+
+    <mj-text align="center" font-size="11px" color="#9CA3AF" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="20px 0 0 0">
+      {{ENTITY_COPYRIGHT}}
+    </mj-text>
+
+    <mj-text align="center" font-size="11px" color="#9CA3AF" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="8px 0 0 0">
+      <a href="{{VIEW_IN_BROWSER_URL}}" style="color: #60A5FA; text-decoration: none;">{{VIEW_IN_BROWSER_TEXT}}</a>
+    </mj-text>
+  </mj-column>
+</mj-section>

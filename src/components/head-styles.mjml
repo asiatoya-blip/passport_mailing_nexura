@@ -1,0 +1,32 @@
+<mj-style>
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+  body, table, td, p, a, span {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  img {
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    -ms-interpolation-mode: nearest-neighbor;
+  }
+
+  a { color: #1A6FE8; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  table { width: 100%; }
+  .container { width: 640px; margin: 0 auto; background-color: #F5F6FA; }
+  .card { background-color: #FFFFFF; border-radius: 24px; padding: 32px; margin: 16px auto; }
+  .divider { height: 1px; background-color: #E5E7EB; margin: 20px 0; }
+</mj-style>
+
+<!--[if mso]>
+  <style type="text/css">
+    body, table, td, p, a, span { font-family: Arial, Helvetica, sans-serif !important; }
+    .card { border-radius: 24px; }
+  </style>
+<![endif]-->

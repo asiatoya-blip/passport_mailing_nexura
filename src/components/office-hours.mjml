@@ -1,0 +1,40 @@
+<mj-section background-color="#F3F4F8" padding="24px" border-radius="16px" margin="16px 0">
+  <mj-column>
+    <mj-text font-size="14px" font-weight="700" color="#1F2937" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 16px 0">
+      Horarios de entrega presencial
+    </mj-text>
+
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td width="24" style="padding: 12px 12px 12px 0; vertical-align: top;">
+          <span style="font-size: 20px;">☀️</span>
+        </td>
+        <td style="padding: 12px 0; vertical-align: top; border-bottom: 1px solid #E5E7EB;">
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Entre semana</p>
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #1F2937; margin: 2px 0 0 0;">{{OFFICE_HOURS_WEEKDAY}}</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="24" style="padding: 12px 12px 12px 0; vertical-align: top;">
+          <span style="font-size: 20px;">🌙</span>
+        </td>
+        <td style="padding: 12px 0; vertical-align: top;">
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Fines de semana</p>
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #1F2937; margin: 2px 0 0 0;">{{OFFICE_HOURS_WEEKEND}}</p>
+        </td>
+      </tr>
+    </mj-table>
+
+    <mj-table width="100%" style="border-collapse: collapse; margin-top: 16px;">
+      <tr>
+        <td width="24" style="padding: 0 12px 0 0; vertical-align: top;">
+          <span style="font-size: 20px;">🏢</span>
+        </td>
+        <td style="padding: 0; vertical-align: top;">
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Ubicación</p>
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #1F2937; margin: 2px 0 0 0;">{{OFFICE_ADDRESS}}</p>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

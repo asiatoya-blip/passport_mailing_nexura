@@ -1,0 +1,22 @@
+<mj-section background-color="#F3F4F8" padding="20px" border-radius="16px" margin="16px 0">
+  <mj-column>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      {{#each DATA_ITEMS}}
+      <tr>
+        <td width="32" style="padding: 8px 12px 8px 0; vertical-align: top;">
+          <img src="{{this.icon}}" width="20" height="20" alt="" />
+        </td>
+        <td style="padding: 8px 0; vertical-align: top;">
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">
+            {{this.label}}
+          </p>
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #1F2937; margin: 2px 0 0 0;">
+            {{this.value}}
+          </p>
+        </td>
+      </tr>
+      {{#if @index < @last}}<tr><td colspan="2" style="height: 1px; background-color: #E5E7EB; padding: 0; margin: 8px 0;"></td></tr>{{/if}}
+      {{/each}}
+    </mj-table>
+  </mj-column>
+</mj-section>

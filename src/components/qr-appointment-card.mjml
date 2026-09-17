@@ -1,0 +1,47 @@
+<mj-section background-color="#F3F4F8" padding="24px" border-radius="16px" margin="16px 0">
+  <mj-column>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td width="55%" style="padding: 0 16px 0 0; vertical-align: top;">
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #6B7280; margin: 0 0 12px 0; text-transform: uppercase;">Datos de tu cita</p>
+
+          <mj-table width="100%" style="border-collapse: collapse;">
+            <tr>
+              <td style="padding: 8px 0;">
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Cédula</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #1F2937; margin: 2px 0 0 0;">{{CITIZEN_ID}}</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 0; border-top: 1px solid #E5E7EB;">
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Fecha</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #1F2937; margin: 2px 0 0 0;">{{APPOINTMENT_DATE}}</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 0; border-top: 1px solid #E5E7EB;">
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Hora</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #1F2937; margin: 2px 0 0 0;">{{APPOINTMENT_TIME}}</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 0; border-top: 1px solid #E5E7EB;">
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Sede</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; color: #1F2937; margin: 2px 0 0 0;">{{OFFICE_ADDRESS}}</p>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-button background-color="#1A6FE8" color="#FFFFFF" font-size="14px" font-weight="600" padding="12px 20px" margin-top="16px" href="{{ADD_CALENDAR_URL}}">
+            Agregar al calendario
+          </mj-button>
+        </td>
+
+        <td width="45%" style="padding: 0 0 0 16px; vertical-align: middle; text-align: center;">
+          <img src="{{QR_CODE_IMAGE_URL}}" width="160" height="160" alt="Código QR de validación de turno" style="border-radius: 12px;" />
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #6B7280; margin: 12px 0 0 0;">Escanea para validar tu turno</p>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

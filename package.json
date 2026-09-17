@@ -1,0 +1,23 @@
+{
+  "name": "passport-mailing-system",
+  "version": "1.0.0",
+  "description": "Modular email template system for passport applications (White-Label)",
+  "type": "module",
+  "scripts": {
+    "build": "mjml src/templates/*.mjml -o dist/",
+    "watch": "mjml src/templates/*.mjml -o dist/ --watch",
+    "dev": "node --watch scripts/dev.js"
+  },
+  "keywords": [
+    "mjml",
+    "email",
+    "passport",
+    "white-label",
+    "transactional"
+  ],
+  "author": "soporte@nexura.com",
+  "license": "MIT",
+  "devDependencies": {
+    "mjml": "^4.14.1"
+  }
+}

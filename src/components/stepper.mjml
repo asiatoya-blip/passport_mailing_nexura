@@ -1,0 +1,56 @@
+<mj-section background-color="#FFFFFF" padding="32px 0">
+  <mj-column>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td width="25%" align="center" style="padding: 0;">
+          <table width="100%" style="border-collapse: collapse;">
+            <tr>
+              <td align="center" style="padding: 0 12px;">
+                <div style="width: 40px; height: 40px; background-color: {{STEP1_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP1_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif;">
+                  {{STEP1_ICON}}
+                </div>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Registro</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td width="25%" align="center" style="padding: 0;">
+          <table width="100%" style="border-collapse: collapse;">
+            <tr>
+              <td align="center" style="padding: 0 12px;">
+                <div style="width: 40px; height: 40px; background-color: {{STEP2_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP2_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif;">
+                  {{STEP2_ICON}}
+                </div>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Primer pago</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td width="25%" align="center" style="padding: 0;">
+          <table width="100%" style="border-collapse: collapse;">
+            <tr>
+              <td align="center" style="padding: 0 12px;">
+                <div style="width: 40px; height: 40px; background-color: {{STEP3_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP3_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif;">
+                  {{STEP3_ICON}}
+                </div>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Agendamiento</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td width="25%" align="center" style="padding: 0;">
+          <table width="100%" style="border-collapse: collapse;">
+            <tr>
+              <td align="center" style="padding: 0 12px;">
+                <div style="width: 40px; height: 40px; background-color: {{STEP4_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP4_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif;">
+                  {{STEP4_ICON}}
+                </div>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Segundo pago</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

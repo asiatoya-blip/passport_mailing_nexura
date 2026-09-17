@@ -1,0 +1,46 @@
+<!-- BOTÓN PRIMARY (Azul sólido) -->
+<mj-section padding="16px 0">
+  <mj-column>
+    <mj-button
+      background-color="#1A6FE8"
+      color="#FFFFFF"
+      font-size="14px"
+      font-weight="700"
+      font-family="'Plus Jakarta Sans', Arial, sans-serif"
+      padding="14px 28px"
+      border-radius="8px"
+      href="{{BUTTON_PRIMARY_URL}}"
+      align="center"
+    >
+      {{BUTTON_PRIMARY_TEXT}}
+    </mj-button>
+  </mj-column>
+</mj-section>
+
+<!-- BOTÓN SECONDARY (Outline) -->
+<!--
+<mj-section padding="16px 0">
+  <mj-column>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td align="center" style="padding: 0;">
+          <a href="{{BUTTON_SECONDARY_URL}}" style="
+            display: inline-block;
+            padding: 14px 28px;
+            background-color: #FFFFFF;
+            border: 2px solid #1A6FE8;
+            border-radius: 8px;
+            color: #1A6FE8;
+            text-decoration: none;
+            font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+          ">
+            {{BUTTON_SECONDARY_TEXT}}
+          </a>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+-->

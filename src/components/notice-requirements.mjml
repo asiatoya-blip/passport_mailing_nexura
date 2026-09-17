@@ -1,0 +1,75 @@
+<!-- VARIANTE A: Corta -->
+<mj-section background-color="#FFFFFF" padding="16px" border-radius="12px" margin="16px 0" border="1px solid #E5E7EB">
+  <mj-column>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td width="24" style="padding-right: 12px; vertical-align: top;">
+          <img src="https://assets.nexura.com/icons/bell.png" width="20" height="20" alt="" />
+        </td>
+        <td style="vertical-align: middle;">
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #1F2937; margin: 0;">
+            {{REQUIREMENTS_NOTICE_SHORT}}
+          </p>
+          <a href="{{REQUIREMENTS_LINK}}" style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #1A6FE8; text-decoration: none; display: inline-block; margin-top: 8px;">
+            Conózcalos aquí →
+          </a>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+
+<!-- VARIANTE B: Extendida (Desglosada) -->
+<!--
+<mj-section background-color="#FFFFFF" padding="24px" border-radius="12px" margin="16px 0">
+  <mj-column>
+    <mj-text font-size="14px" font-weight="700" color="#1F2937" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 16px 0">
+      Requisitos por categoría
+    </mj-text>
+
+    <mj-text font-size="12px" font-weight="600" color="#6B7280" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 8px 0">
+      Mayores de edad:
+    </mj-text>
+    <mj-text font-size="13px" color="#1F2937" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 12px 0">
+      {{REQUIREMENTS_ADULTS}}
+    </mj-text>
+
+    <mj-text font-size="12px" font-weight="600" color="#6B7280" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 8px 0">
+      Menores de edad:
+    </mj-text>
+    <mj-text font-size="13px" color="#1F2937" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 12px 0">
+      {{REQUIREMENTS_MINORS}}
+    </mj-text>
+
+    <mj-text font-size="12px" font-weight="600" color="#6B7280" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 8px 0">
+      Casos especiales:
+    </mj-text>
+    <mj-text font-size="13px" color="#1F2937" font-family="'Plus Jakarta Sans', Arial, sans-serif">
+      {{REQUIREMENTS_SPECIAL}}
+    </mj-text>
+  </mj-column>
+</mj-section>
+-->
+
+<!-- VARIANTE C: Referencia a adjunto -->
+<!--
+<mj-section background-color="#E0E7FF" padding="16px" border-radius="12px" margin="16px 0" border="1px solid #C7D2FE">
+  <mj-column>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td width="24" style="padding-right: 12px; vertical-align: top;">
+          <img src="https://assets.nexura.com/icons/document.png" width="20" height="20" alt="" />
+        </td>
+        <td style="vertical-align: middle;">
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #3730A3; margin: 0;">
+            Documento adjunto
+          </p>
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #4C1D95; margin: 4px 0 0 0;">
+            {{DOCUMENT_ATTACHMENT_NOTICE}}
+          </p>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+-->

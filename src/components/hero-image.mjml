@@ -1,0 +1,12 @@
+<mj-section padding="16px 0" margin="16px 0">
+  <mj-column>
+    <mj-image
+      src="{{HERO_IMAGE_URL}}"
+      width="608px"
+      height="400px"
+      alt="Entrega de pasaporte"
+      border-radius="16px"
+      padding="0"
+    />
+  </mj-column>
+</mj-section>

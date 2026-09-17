@@ -1,0 +1,113 @@
+{
+  "entity_metadata": {
+    "entity_name": "Gobernación del Huila",
+    "entity_secretariat_title": "Secretaría de Gobierno",
+    "entity_logo_url": "https://assets.nexura.com/logos/gobernacion-huila-shield.png",
+    "entity_support_email": "pasaportes@huila.gov.co",
+    "entity_copyright": "© 2026 Gobernación del Huila. Todos los derechos reservados.",
+    "office_address": "Calle 8 #7-27, Neiva, Huila",
+    "office_hours_weekday": "Lunes a Viernes: 8:00 AM - 5:00 PM",
+    "office_hours_weekend": "Sábados: 8:00 AM - 1:00 PM",
+    "csat_base_url": "https://api.nexura.com/survey/csat"
+  },
+  "tariffs": {
+    "first_payment": {
+      "ordinario": {
+        "label": "Ordinario",
+        "days": "30 a 45 días hábiles",
+        "price": "$190.000"
+      },
+      "ejecutivo": {
+        "label": "Ejecutivo",
+        "days": "10 a 15 días hábiles",
+        "price": "$380.000"
+      },
+      "emergencia": {
+        "label": "Emergencia",
+        "days": "2 a 3 días hábiles",
+        "price": "$570.000"
+      }
+    },
+    "second_payment": {
+      "ordinario": {
+        "label": "Ordinario",
+        "price": "$82.100",
+        "discount_text": "Incluye descuento electoral"
+      },
+      "ejecutivo": {
+        "label": "Ejecutivo",
+        "price": "$82.100",
+        "discount_text": "Incluye descuento electoral"
+      },
+      "emergencia": {
+        "label": "Emergencia",
+        "price": "$82.100",
+        "discount_text": "Incluye descuento electoral"
+      }
+    }
+  },
+  "policies": {
+    "cancellation_policy": "Puede cancelar o reprogramar su cita hasta 24 horas antes de la hora programada sin costo adicional. Después de este tiempo, perderá el derecho a la devolución del primer pago.",
+    "requirements_notice_short": "Conozca los requisitos necesarios para su trámite.",
+    "requirements_notice_extended": {
+      "adults": [
+        "Documento de identidad original y copia",
+        "Certificado de nacimiento (original o auténtico)",
+        "Comprobante de pago del primer derecho",
+        "Comprobante de pago del segundo derecho",
+        "Foto 4x4 cm en fondo blanco"
+      ],
+      "minors": [
+        "Documento de identidad del menor original y copia",
+        "Certificado de nacimiento original",
+        "Documento de identidad del acudiente",
+        "Consentimiento del padre/madre ausente (si aplica)",
+        "Comprobante de pago del primer y segundo derecho"
+      ],
+      "special_cases": [
+        "Víctimas de violencia (certificado de protección)",
+        "Reexpedición (pasaporte vencido)",
+        "Cambio de datos (documento de rectificación judicial)"
+      ]
+    },
+    "sitac_registration_notice": "No olvide completar su preregistro en el aplicativo SITAC de la Cancillería Colombiana.",
+    "document_attachment_notice": "Adjunto encontrará el documento con la lista completa de requisitos. Déjalo a mano para tu cita."
+  },
+  "messages": {
+    "step_1_label": "Registro de datos",
+    "step_2_label": "Primer pago",
+    "step_3_label": "Agendamiento",
+    "step_4_label": "Segundo pago",
+    "status_title_registration_success": "¡Datos registrados exitosamente!",
+    "status_title_payment_approved": "¡Primer pago aprobado!",
+    "status_title_payment_rejected": "Primer pago no procesado",
+    "status_title_appointment_scheduled": "¡Cita agendada exitosamente!",
+    "status_title_appointment_rescheduled": "¡Cita reprogramada!",
+    "status_title_appointment_cancelled": "Cita cancelada",
+    "status_title_appointment_reminder": "Recordatorio de agendamiento",
+    "status_title_second_payment_request": "Solicitud de segundo pago",
+    "status_title_second_payment_approved": "¡Segundo pago aprobado!",
+    "status_title_passport_ready": "¡Tu pasaporte está listo!",
+    "status_title_appointment_upcoming": "Recordatorio de tu cita",
+    "button_continue_payment": "Continuar con el primer pago",
+    "button_schedule_appointment": "Agendar cita",
+    "button_retry_payment": "Reintentar el primer pago",
+    "button_reschedule": "¿Necesita reprogramar o cancelar?",
+    "button_register_new": "Registrar datos para una nueva cita",
+    "button_continue_second": "Continuar al segundo pago",
+    "button_rate_service": "Califíquenos",
+    "csat_title": "¿Cómo fue tu experiencia?",
+    "csat_options": [
+      "Muy difícil",
+      "Difícil",
+      "Normal",
+      "Fácil",
+      "Muy fácil"
+    ]
+  },
+  "email_copy": {
+    "footer_greeting": "Gracias por confiar en nosotros.",
+    "footer_support": "Si tienes preguntas, contáctanos a {{ENTITY_SUPPORT_EMAIL}}",
+    "view_in_browser": "¿No visualizas bien este email? Ver en tu navegador"
+  }
+}

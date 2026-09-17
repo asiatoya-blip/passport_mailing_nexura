@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Write-Host \"=== FASE 2: PLANTILLAS TRANSACCIONALES \\(13/13\\) ===\" ; Get-ChildItem -Path \"src/templates/\" -Name | Sort-Object ; Write-Host \"`n=== COMPONENTES CREADOS \\(15/15\\) ===\" ; \\(Get-ChildItem -Path \"src/components/\" -Name | Measure-Object\\).Count ; Write-Host \"Total de archivos del proyecto:\" ; \\(Get-ChildItem -Recurse -File | Measure-Object\\).Count)",
+      "PowerShell(git init)",
+      "PowerShell(git config user.email \"soporte@nexura.com\")",
+      "PowerShell(git config user.name \"Nexura Development\")"
+    ]
+  }
+}

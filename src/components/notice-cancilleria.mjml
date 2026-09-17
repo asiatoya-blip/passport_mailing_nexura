@@ -1,0 +1,22 @@
+<mj-section background-color="#FEF3C7" padding="16px" border-radius="12px" margin="16px 0" border="1px solid #FCD34D">
+  <mj-column>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td width="24" style="padding-right: 12px; vertical-align: top;">
+          <img src="https://assets.nexura.com/icons/notification-bell.png" width="20" height="20" alt="" />
+        </td>
+        <td style="vertical-align: middle;">
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #92400E; margin: 0;">
+            {{SITAC_NOTICE_TITLE}}
+          </p>
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #B45309; margin: 4px 0 0 0;">
+            {{SITAC_NOTICE_MESSAGE}}
+          </p>
+          <a href="{{SITAC_LINK}}" style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #B45309; text-decoration: underline; display: inline-block; margin-top: 8px;">
+            Acceder al SITAC →
+          </a>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

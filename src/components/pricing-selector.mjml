@@ -1,0 +1,42 @@
+<mj-section background-color="#FFFFFF" padding="24px 0">
+  <mj-column>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td width="32%" style="padding: 0 12px 0 0; vertical-align: top;">
+          <table width="100%" style="border: 1px solid #E5E7EB; border-radius: 12px; padding: 16px; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 0; text-align: center;">
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #1F2937; margin: 0;">{{PRICE_ORDINARIO_LABEL}}</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #6B7280; margin: 4px 0;">{{PRICE_ORDINARIO_DAYS}}</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 20px; font-weight: 700; color: #1A6FE8; margin: 12px 0 0 0;">{{PRICE_ORDINARIO}}</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td width="32%" style="padding: 0 12px; vertical-align: top;">
+          <table width="100%" style="border: 2px solid #1A6FE8; border-radius: 12px; padding: 16px; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 0; text-align: center;">
+                <span style="background-color: #1A6FE8; color: white; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 10px; font-weight: 700; padding: 4px 8px; border-radius: 4px; display: inline-block; margin-bottom: 8px;">RECOMENDADO</span>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #1F2937; margin: 8px 0 0 0;">{{PRICE_EJECUTIVO_LABEL}}</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #6B7280; margin: 4px 0;">{{PRICE_EJECUTIVO_DAYS}}</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 20px; font-weight: 700; color: #1A6FE8; margin: 12px 0 0 0;">{{PRICE_EJECUTIVO}}</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td width="32%" style="padding: 0 0 0 12px; vertical-align: top;">
+          <table width="100%" style="border: 1px solid #E5E7EB; border-radius: 12px; padding: 16px; border-collapse: collapse;">
+            <tr>
+              <td style="padding: 0; text-align: center;">
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #1F2937; margin: 0;">{{PRICE_EMERGENCIA_LABEL}}</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #6B7280; margin: 4px 0;">{{PRICE_EMERGENCIA_DAYS}}</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 20px; font-weight: 700; color: #1A6FE8; margin: 12px 0 0 0;">{{PRICE_EMERGENCIA}}</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
