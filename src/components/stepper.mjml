@@ -14,7 +14,7 @@
                     </td>
                   </tr>
                 </table>
-                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">{{STEP1_LABEL}}</p>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #000000; margin: 0;">{{STEP1_LABEL}}</p>
               </td>
             </tr>
           </table>

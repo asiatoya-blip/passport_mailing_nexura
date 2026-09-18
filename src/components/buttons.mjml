@@ -1,20 +1,27 @@
 <!-- BOTÓN PRIMARY (Azul sólido - Hug content) -->
-<mj-section padding="16px 0">
+<mj-section padding="24px 0">
   <mj-column>
-    <mj-button
-      background-color="#1A6FE8"
-      color="#FFFFFF"
-      font-size="14px"
-      font-weight="700"
-      font-family="'Plus Jakarta Sans', Arial, sans-serif"
-      padding="14px 32px"
-      border-radius="100px"
-      href="{{BUTTON_PRIMARY_URL}}"
-      align="center"
-      width="auto"
-    >
-      {{BUTTON_PRIMARY_TEXT}}
-    </mj-button>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td align="center" style="padding: 0;">
+          <a href="{{BUTTON_PRIMARY_URL}}" style="
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #0F61E4;
+            border-radius: 999px;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28.80px;
+            text-align: center;
+          ">
+            {{BUTTON_PRIMARY_TEXT}}
+          </a>
+        </td>
+      </tr>
+    </mj-table>
   </mj-column>
 </mj-section>
 
@@ -27,17 +34,18 @@
           <a href="{{BUTTON_SECONDARY_URL}}" style="
             display: block;
             width: 100%;
-            padding: 14px 32px;
+            padding: 12px 24px;
             background-color: #FFFFFF;
-            border: 2px solid #1A6FE8;
-            border-radius: 100px;
-            color: #1A6FE8;
+            border: 2px solid #0F61E4;
+            border-radius: 999px;
+            color: #0F61E4;
             text-decoration: none;
             font-family: 'Plus Jakarta Sans', Arial, sans-serif;
-            font-size: 14px;
-            font-weight: 700;
+            font-size: 16px;
+            font-weight: 400;
             box-sizing: border-box;
             text-align: center;
+            line-height: 28.80px;
           ">
             {{BUTTON_SECONDARY_TEXT}}
           </a>
