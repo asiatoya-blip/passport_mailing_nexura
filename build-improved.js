@@ -7,12 +7,11 @@
  * 3. Generates preview versions with sample data
  */
 
-import { execSync } from 'child_process';
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+const { execSync } = require('child_process');
+const fs = require('fs');
+const path = require('path');
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// __dirname is available in CommonJS
 
 // Load configuration
 const configPath = path.join(__dirname, 'src/data/entities/huila.json');
