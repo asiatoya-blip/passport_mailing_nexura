@@ -39,6 +39,9 @@ jobs:
       - name: Build MJML templates
         run: npm run build
 
+      - name: Copy index.html to dist
+        run: cp index.html dist/index.html
+
       - name: Verify build output
         run: |
           echo "✓ Build completed successfully"
