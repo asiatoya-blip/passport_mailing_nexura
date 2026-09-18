@@ -2,11 +2,12 @@
   <mj-column>
     <mj-table width="100%" style="border-collapse: collapse;">
       <tr>
-        <td width="25%" align="center" style="padding: 0;">
+        <!-- PASO 1 -->
+        <td width="25%" align="center" style="padding: 0; position: relative;">
           <table width="100%" style="border-collapse: collapse;">
             <tr>
               <td align="center" style="padding: 0 12px;">
-                <div style="width: 40px; height: 40px; background-color: {{STEP1_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP1_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif;">
+                <div style="width: 40px; height: 40px; background-color: {{STEP1_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP1_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; position: relative; z-index: 2;">
                   {{STEP1_ICON}}
                 </div>
                 <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Registro</p>
@@ -14,11 +15,20 @@
             </tr>
           </table>
         </td>
-        <td width="25%" align="center" style="padding: 0;">
+
+        <!-- LÍNEA 1→2 -->
+        <td width="25%" align="center" style="padding: 0; vertical-align: middle; position: relative;">
+          <div style="height: 4px; background: linear-gradient(90deg, {{LINE1_START}} 0%, {{LINE1_END}} 100%); margin: 0 -12px;">
+            &nbsp;
+          </div>
+        </td>
+
+        <!-- PASO 2 -->
+        <td width="25%" align="center" style="padding: 0; position: relative;">
           <table width="100%" style="border-collapse: collapse;">
             <tr>
               <td align="center" style="padding: 0 12px;">
-                <div style="width: 40px; height: 40px; background-color: {{STEP2_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP2_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif;">
+                <div style="width: 40px; height: 40px; background-color: {{STEP2_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP2_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; position: relative; z-index: 2;">
                   {{STEP2_ICON}}
                 </div>
                 <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Primer pago</p>
@@ -26,11 +36,20 @@
             </tr>
           </table>
         </td>
-        <td width="25%" align="center" style="padding: 0;">
+
+        <!-- LÍNEA 2→3 -->
+        <td width="25%" align="center" style="padding: 0; vertical-align: middle; position: relative;">
+          <div style="height: 4px; background: linear-gradient(90deg, {{LINE2_START}} 0%, {{LINE2_END}} 100%); margin: 0 -12px;">
+            &nbsp;
+          </div>
+        </td>
+
+        <!-- PASO 3 -->
+        <td width="25%" align="center" style="padding: 0; position: relative;">
           <table width="100%" style="border-collapse: collapse;">
             <tr>
               <td align="center" style="padding: 0 12px;">
-                <div style="width: 40px; height: 40px; background-color: {{STEP3_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP3_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif;">
+                <div style="width: 40px; height: 40px; background-color: {{STEP3_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP3_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; position: relative; z-index: 2;">
                   {{STEP3_ICON}}
                 </div>
                 <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Agendamiento</p>
@@ -38,11 +57,20 @@
             </tr>
           </table>
         </td>
-        <td width="25%" align="center" style="padding: 0;">
+
+        <!-- LÍNEA 3→4 -->
+        <td width="25%" align="center" style="padding: 0; vertical-align: middle; position: relative;">
+          <div style="height: 4px; background: linear-gradient(90deg, {{LINE3_START}} 0%, {{LINE3_END}} 100%); margin: 0 -12px;">
+            &nbsp;
+          </div>
+        </td>
+
+        <!-- PASO 4 -->
+        <td width="25%" align="center" style="padding: 0; position: relative;">
           <table width="100%" style="border-collapse: collapse;">
             <tr>
               <td align="center" style="padding: 0 12px;">
-                <div style="width: 40px; height: 40px; background-color: {{STEP4_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP4_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif;">
+                <div style="width: 40px; height: 40px; background-color: {{STEP4_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP4_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; position: relative; z-index: 2;">
                   {{STEP4_ICON}}
                 </div>
                 <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Segundo pago</p>

@@ -1,4 +1,4 @@
-<!-- BOTÓN PRIMARY (Azul sólido) -->
+<!-- BOTÓN PRIMARY (Azul sólido - Hug content) -->
 <mj-section padding="16px 0">
   <mj-column>
     <mj-button
@@ -7,34 +7,37 @@
       font-size="14px"
       font-weight="700"
       font-family="'Plus Jakarta Sans', Arial, sans-serif"
-      padding="14px 28px"
-      border-radius="8px"
+      padding="14px 32px"
+      border-radius="100px"
       href="{{BUTTON_PRIMARY_URL}}"
       align="center"
+      width="auto"
     >
       {{BUTTON_PRIMARY_TEXT}}
     </mj-button>
   </mj-column>
 </mj-section>
 
-<!-- BOTÓN SECONDARY (Outline) -->
-<!--
+<!-- BOTÓN SECONDARY (Outline - Fill container) -->
 <mj-section padding="16px 0">
   <mj-column>
     <mj-table width="100%" style="border-collapse: collapse;">
       <tr>
         <td align="center" style="padding: 0;">
           <a href="{{BUTTON_SECONDARY_URL}}" style="
-            display: inline-block;
-            padding: 14px 28px;
+            display: block;
+            width: 100%;
+            padding: 14px 32px;
             background-color: #FFFFFF;
             border: 2px solid #1A6FE8;
-            border-radius: 8px;
+            border-radius: 100px;
             color: #1A6FE8;
             text-decoration: none;
             font-family: 'Plus Jakarta Sans', Arial, sans-serif;
             font-size: 14px;
             font-weight: 700;
+            box-sizing: border-box;
+            text-align: center;
           ">
             {{BUTTON_SECONDARY_TEXT}}
           </a>
@@ -43,4 +46,3 @@
     </mj-table>
   </mj-column>
 </mj-section>
--->
