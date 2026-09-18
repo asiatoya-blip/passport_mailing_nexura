@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
     <mj-include path="../components/head-styles.mjml" />
-    <mj-title>Datos Registrados</mj-title>
+    <mj-title>Recordatorio Cita</mj-title>
   </mj-head>
   <mj-body background-color="#F9FAFB" padding="0">
     <mj-section background-color="#F9FAFB" padding="20px 0">
@@ -22,14 +22,14 @@
         </mj-section>
         <mj-section background-color="transparent" padding="20px 20px 0 20px">
           <mj-column>
-            <mj-section background-color="{{ALERT_BG}}" padding="16px 20px" style="border-radius: 16px; margin: 0;">
+            <mj-section background-color="#FEF3C7" padding="16px 20px" style="border-radius: 16px; margin: 0;">
               <mj-column>
                 <mj-table width="100%">
                   <tr>
                     <td width="32" style="padding: 0 12px 0 0; font-size: 24px; vertical-align: top;">{{ALERT_ICON}}</td>
                     <td style="padding: 0;">
-                      <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; color: {{ALERT_TEXT_COLOR}}; margin: 0; font-weight: 700;">{{ALERT_TITLE}}</p>
-                      <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; color: {{ALERT_TEXT_COLOR}}; margin: 4px 0 0 0;">{{ALERT_TEXT}}</p>
+                      <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; color: #92400E; margin: 0; font-weight: 700;">{{ALERT_TITLE}}</p>
+                      <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; color: #92400E; margin: 4px 0 0 0;">{{ALERT_TEXT}}</p>
                     </td>
                   </tr>
                 </mj-table>
