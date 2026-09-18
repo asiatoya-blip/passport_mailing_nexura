@@ -249,7 +249,7 @@ async function build() {
         const outputPath = path.join(distDir, outputFile);
 
         // Step 1: Compile MJML to HTML
-        execSync(`mjml "${inputPath}" -o "${outputPath}"`, {
+        execSync(`npx mjml "${inputPath}" -o "${outputPath}"`, {
           stdio: 'pipe',
           cwd: __dirname
         });
