@@ -155,11 +155,31 @@
       "LINE3_END": "#E5E7EB"
     }
   },
+  "stepper_labels": {
+    "step_1": "Registro de datos",
+    "step_2": "Primer pago",
+    "step_3": "Agendamiento",
+    "step_4": "Segundo pago"
+  },
+  "stepper_icons": {
+    "check_url": "src/assets/icons/stepper/check-green-40x40.png",
+    "error_url": "src/assets/icons/stepper/x-red-40x40.png",
+    "progress_url": "src/assets/icons/stepper/clock-orange-40x40.png",
+    "rescheduled_url": "src/assets/icons/stepper/sync-purple-40x40.png"
+  },
   "messages": {
     "step_1_label": "Registro de datos",
     "step_2_label": "Primer pago",
     "step_3_label": "Agendamiento",
     "step_4_label": "Segundo pago",
+    "button_continue_payment": "Continuar con el primer pago",
+    "button_continue_payment_url": "{{PAYMENT_URL}}",
+    "notice_requirements_title": "Recuerde registrar sus datos en Cancillería",
+    "notice_requirements_message": "Fabian Alejandro, si aún no ha diligenciado el formulario de registro, le sugerimos realizar en este paso. Si asiste a su cita a la oficina de pasaportes con estos datos diligenciados, la atención será casi inmediata. Si ya lo realizó anteriormente, por favor haga caso omiso a este mensaje.",
+    "notice_requirements_link": "https://www.sitac.gov.co",
+    "notice_requirements_link_text": "Realizar registro de cancillería en el SITAC",
+    "notice_sitac_title": "No olvide completar su preregistro en SITAC",
+    "notice_sitac_message": "El aplicativo SITAC de la Cancillería Colombiana es esencial para procesar su solicitud de pasaporte.",
     "status_title_registration_success": "¡Datos registrados exitosamente!",
     "status_title_payment_approved": "¡Primer pago aprobado!",
     "status_title_payment_rejected": "Primer pago no procesado",

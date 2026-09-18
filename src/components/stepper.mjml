@@ -7,10 +7,14 @@
           <table width="100%" style="border-collapse: collapse;">
             <tr>
               <td align="center" style="padding: 0 12px;">
-                <div style="width: 40px; height: 40px; background-color: {{STEP1_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP1_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; position: relative; z-index: 2;">
-                  {{STEP1_ICON}}
-                </div>
-                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Registro</p>
+                <table width="40" height="40" style="border-collapse: collapse; margin: 0 auto 8px; background-color: {{STEP1_BG}}; border-radius: 50%;">
+                  <tr>
+                    <td align="center" valign="middle" style="padding: 0; color: {{STEP1_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 18px;">
+                      {{STEP1_ICON}}
+                    </td>
+                  </tr>
+                </table>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">{{STEP1_LABEL}}</p>
               </td>
             </tr>
           </table>
@@ -18,7 +22,7 @@
 
         <!-- LÍNEA 1→2 -->
         <td width="25%" align="center" style="padding: 0; vertical-align: middle; position: relative;">
-          <div style="height: 4px; background: linear-gradient(90deg, {{LINE1_START}} 0%, {{LINE1_END}} 100%); margin: 0 -12px;">
+          <div style="height: 4px; background: linear-gradient(90deg, {{LINE1_START}} 0%, {{LINE1_END}} 100%); margin: 0 -12px; border-radius: 2px;">
             &nbsp;
           </div>
         </td>
@@ -28,10 +32,14 @@
           <table width="100%" style="border-collapse: collapse;">
             <tr>
               <td align="center" style="padding: 0 12px;">
-                <div style="width: 40px; height: 40px; background-color: {{STEP2_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP2_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; position: relative; z-index: 2;">
-                  {{STEP2_ICON}}
-                </div>
-                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Primer pago</p>
+                <table width="40" height="40" style="border-collapse: collapse; margin: 0 auto 8px; background-color: {{STEP2_BG}}; border-radius: 50%;">
+                  <tr>
+                    <td align="center" valign="middle" style="padding: 0; color: {{STEP2_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 18px;">
+                      {{STEP2_ICON}}
+                    </td>
+                  </tr>
+                </table>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">{{STEP2_LABEL}}</p>
               </td>
             </tr>
           </table>
@@ -39,7 +47,7 @@
 
         <!-- LÍNEA 2→3 -->
         <td width="25%" align="center" style="padding: 0; vertical-align: middle; position: relative;">
-          <div style="height: 4px; background: linear-gradient(90deg, {{LINE2_START}} 0%, {{LINE2_END}} 100%); margin: 0 -12px;">
+          <div style="height: 4px; background: linear-gradient(90deg, {{LINE2_START}} 0%, {{LINE2_END}} 100%); margin: 0 -12px; border-radius: 2px;">
             &nbsp;
           </div>
         </td>
@@ -49,10 +57,14 @@
           <table width="100%" style="border-collapse: collapse;">
             <tr>
               <td align="center" style="padding: 0 12px;">
-                <div style="width: 40px; height: 40px; background-color: {{STEP3_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP3_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; position: relative; z-index: 2;">
-                  {{STEP3_ICON}}
-                </div>
-                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Agendamiento</p>
+                <table width="40" height="40" style="border-collapse: collapse; margin: 0 auto 8px; background-color: {{STEP3_BG}}; border-radius: 50%;">
+                  <tr>
+                    <td align="center" valign="middle" style="padding: 0; color: {{STEP3_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 18px;">
+                      {{STEP3_ICON}}
+                    </td>
+                  </tr>
+                </table>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">{{STEP3_LABEL}}</p>
               </td>
             </tr>
           </table>
@@ -60,7 +72,7 @@
 
         <!-- LÍNEA 3→4 -->
         <td width="25%" align="center" style="padding: 0; vertical-align: middle; position: relative;">
-          <div style="height: 4px; background: linear-gradient(90deg, {{LINE3_START}} 0%, {{LINE3_END}} 100%); margin: 0 -12px;">
+          <div style="height: 4px; background: linear-gradient(90deg, {{LINE3_START}} 0%, {{LINE3_END}} 100%); margin: 0 -12px; border-radius: 2px;">
             &nbsp;
           </div>
         </td>
@@ -70,10 +82,14 @@
           <table width="100%" style="border-collapse: collapse;">
             <tr>
               <td align="center" style="padding: 0 12px;">
-                <div style="width: 40px; height: 40px; background-color: {{STEP4_BG}}; border-radius: 50%; margin: 0 auto 8px; display: inline-block; line-height: 40px; color: {{STEP4_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; position: relative; z-index: 2;">
-                  {{STEP4_ICON}}
-                </div>
-                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">Segundo pago</p>
+                <table width="40" height="40" style="border-collapse: collapse; margin: 0 auto 8px; background-color: {{STEP4_BG}}; border-radius: 50%;">
+                  <tr>
+                    <td align="center" valign="middle" style="padding: 0; color: {{STEP4_TEXT}}; font-weight: 700; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 18px;">
+                      {{STEP4_ICON}}
+                    </td>
+                  </tr>
+                </table>
+                <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #6B7280; margin: 0;">{{STEP4_LABEL}}</p>
               </td>
             </tr>
           </table>

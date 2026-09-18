@@ -1,48 +1,81 @@
-<mj-section background-color="#1F2937" padding="40px 0">
+<!-- BLOQUE 1: Logo + Texto de Entidad -->
+<mj-section background-color="#FFFFFF" border-radius="16px" padding="24px 0" style="border: 1px solid #E5E5EA;">
   <mj-column>
-    <mj-text align="center" font-size="14px" color="#FFFFFF" font-weight="600" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 16px 0">
-      Gracias por confiar en nosotros 🎉
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr>
+        <td width="80" style="vertical-align: middle; padding: 0 16px 0 0;">
+          <img src="{{ENTITY_LOGO_URL}}" width="60" height="60" alt="{{ENTITY_NAME}}" style="border-radius: 8px;" />
+        </td>
+        <td style="padding: 0 16px; vertical-align: middle;">
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #1F2937; margin: 0;">{{ENTITY_NAME}}</p>
+          <p style="font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #6B7280; margin: 4px 0 0 0;">{{ENTITY_SECRETARIAT_TITLE}}</p>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+
+<!-- BLOQUE 2: Mensaje de Gratitud -->
+<mj-section background-color="#FFFFFF" border-radius="16px" padding="20px 0" style="border: 1px solid #E5E5EA; margin-top: 12px;">
+  <mj-column>
+    <mj-text align="center" font-size="14px" color="#1F2937" font-weight="600" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0">
+      Gracias por utilizar nuestros servicios
     </mj-text>
+  </mj-column>
+</mj-section>
 
-    <mj-text align="center" font-size="12px" color="#D1D5DB" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 20px 0">
-      {{FOOTER_SUPPORT_MESSAGE}}
-      <br/>
-      <a href="mailto:{{ENTITY_SUPPORT_EMAIL}}" style="color: #60A5FA; text-decoration: none;">{{ENTITY_SUPPORT_EMAIL}}</a>
+<!-- BLOQUE 3: Copyright + Email -->
+<mj-section background-color="#FFFFFF" border-radius="16px" padding="20px 0" style="border: 1px solid #E5E5EA; margin-top: 12px;">
+  <mj-column>
+    <mj-text align="center" font-size="12px" color="#6B7280" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 8px 0">
+      {{ENTITY_COPYRIGHT}}
     </mj-text>
+    <mj-text align="center" font-size="12px" color="#6B7280" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0">
+      <a href="mailto:{{ENTITY_SUPPORT_EMAIL}}" style="color: #1A6FE8; text-decoration: none;">{{ENTITY_SUPPORT_EMAIL}}</a>
+    </mj-text>
+  </mj-column>
+</mj-section>
 
-    <mj-divider border-color="#374151" border-width="1px" margin="20px 0" />
-
+<!-- BLOQUE 4: Redes Sociales -->
+<mj-section background-color="#FFFFFF" border-radius="16px" padding="20px 0" style="border: 1px solid #E5E5EA; margin-top: 12px;">
+  <mj-column>
     <mj-table width="100%" style="border-collapse: collapse;">
       <tr align="center">
         <td style="padding: 0 8px;">
-          <a href="{{SOCIAL_FACEBOOK}}" style="text-decoration: none; display: inline-block;">
-            <img src="https://assets.nexura.com/icons/social-facebook.png" width="20" height="20" alt="Facebook" />
+          <a href="{{SOCIAL_TIKTOK}}" style="text-decoration: none; display: inline-block; font-size: 20px;">
+            🎵
           </a>
         </td>
         <td style="padding: 0 8px;">
-          <a href="{{SOCIAL_TWITTER}}" style="text-decoration: none; display: inline-block;">
-            <img src="https://assets.nexura.com/icons/social-twitter.png" width="20" height="20" alt="Twitter" />
+          <a href="{{SOCIAL_TWITTER}}" style="text-decoration: none; display: inline-block; font-size: 20px;">
+            𝕏
           </a>
         </td>
         <td style="padding: 0 8px;">
-          <a href="{{SOCIAL_INSTAGRAM}}" style="text-decoration: none; display: inline-block;">
-            <img src="https://assets.nexura.com/icons/social-instagram.png" width="20" height="20" alt="Instagram" />
+          <a href="{{SOCIAL_FACEBOOK}}" style="text-decoration: none; display: inline-block; font-size: 20px;">
+            f
           </a>
         </td>
         <td style="padding: 0 8px;">
-          <a href="{{SOCIAL_YOUTUBE}}" style="text-decoration: none; display: inline-block;">
-            <img src="https://assets.nexura.com/icons/social-youtube.png" width="20" height="20" alt="YouTube" />
+          <a href="{{SOCIAL_INSTAGRAM}}" style="text-decoration: none; display: inline-block; font-size: 20px;">
+            📷
+          </a>
+        </td>
+        <td style="padding: 0 8px;">
+          <a href="{{SOCIAL_YOUTUBE}}" style="text-decoration: none; display: inline-block; font-size: 20px;">
+            ▶️
           </a>
         </td>
       </tr>
     </mj-table>
+  </mj-column>
+</mj-section>
 
-    <mj-text align="center" font-size="11px" color="#9CA3AF" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="20px 0 0 0">
-      {{ENTITY_COPYRIGHT}}
-    </mj-text>
-
-    <mj-text align="center" font-size="11px" color="#9CA3AF" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="8px 0 0 0">
-      <a href="{{VIEW_IN_BROWSER_URL}}" style="color: #60A5FA; text-decoration: none;">{{VIEW_IN_BROWSER_TEXT}}</a>
+<!-- Enlace "Ver en navegador" -->
+<mj-section padding="16px 0">
+  <mj-column>
+    <mj-text align="center" font-size="11px" color="#9CA3AF" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0">
+      <a href="{{VIEW_IN_BROWSER_URL}}" style="color: #1A6FE8; text-decoration: none;">¿No visualizas bien este email? Ver en tu navegador</a>
     </mj-text>
   </mj-column>
 </mj-section>
