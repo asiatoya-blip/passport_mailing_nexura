@@ -1,0 +1,14 @@
+<mj-section background-color="#FFFFFF" padding="20px" style="border-radius: 16px; margin: 20px 20px 0 20px; border: 1px solid #E5E5EA;">
+  <mj-column>
+    <mj-text font-size="14px" font-weight="700" color="#1F2937" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 16px 0">
+      {{REQUIREMENTS_TITLE}}
+    </mj-text>
+    <mj-text font-size="12px" color="#1F2937" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0">
+      • {{REQUIREMENT_1}}<br/>
+      • {{REQUIREMENT_2}}<br/>
+      • {{REQUIREMENT_3}}<br/>
+      • {{REQUIREMENT_4}}<br/>
+      • {{REQUIREMENT_5}}
+    </mj-text>
+  </mj-column>
+</mj-section>

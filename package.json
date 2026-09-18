@@ -4,7 +4,8 @@
   "description": "Modular email template system for passport applications (White-Label)",
   "type": "module",
   "scripts": {
-    "build": "node build.js",
+    "build": "node build-improved.js",
+    "build:old": "node build.js",
     "watch": "mjml src/templates/ -o dist/ --watch",
     "dev": "node --watch scripts/dev.js"
   },

@@ -1,0 +1,37 @@
+<mj-section background-color="#FFFFFF" padding="20px" style="border-radius: 16px; margin: 20px 20px 0 20px; border: 1px solid #E5E5EA;">
+  <mj-column>
+    <mj-text font-size="14px" font-weight="700" color="#1F2937" font-family="'Plus Jakarta Sans', Arial, sans-serif" margin="0 0 16px 0">
+      {{PAYMENT_DETAILS_TITLE}}
+    </mj-text>
+    <mj-table width="100%" style="border-collapse: collapse;">
+      <tr style="border-bottom: 1px solid #E5E5EA;">
+        <td width="40%" style="padding: 12px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #1F2937;">Estado</td>
+        <td style="padding: 12px 0 12px 16px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; color: #1F2937; font-weight: 700;">{{PAYMENT_STATE}}</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #E5E5EA;">
+        <td style="padding: 12px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #1F2937;">Tipo de pasaporte:</td>
+        <td style="padding: 12px 0 12px 16px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; color: #1F2937;">{{PAYMENT_PASSPORT_TYPE}}</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #E5E5EA;">
+        <td style="padding: 12px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #1F2937;">Método de pago</td>
+        <td style="padding: 12px 0 12px 16px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; color: #1F2937;">{{PAYMENT_METHOD}}</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #E5E5EA;">
+        <td style="padding: 12px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #1F2937;">Fecha y hora</td>
+        <td style="padding: 12px 0 12px 16px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; color: #1F2937;">{{PAYMENT_DATE}}</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #E5E5EA;">
+        <td style="padding: 12px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #1F2937;">Número de identificación</td>
+        <td style="padding: 12px 0 12px 16px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; color: #1F2937;">{{PAYMENT_ID}}</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #E5E5EA;">
+        <td style="padding: 12px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #1F2937;">Correo electrónico</td>
+        <td style="padding: 12px 0 12px 16px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; color: #1F2937;">{{PAYMENT_EMAIL}}</td>
+      </tr>
+      <tr>
+        <td style="padding: 12px 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #1F2937;">Monto pagado</td>
+        <td style="padding: 12px 0 12px 16px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 13px; color: #1F2937; font-weight: 700;">{{PAYMENT_AMOUNT}}</td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
